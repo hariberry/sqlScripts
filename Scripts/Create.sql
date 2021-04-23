@@ -1,0 +1,28 @@
+INSERT
+	INTO
+	`customers` (`customerNumber`,
+	`customerName`,
+	`contactLastName`,
+	`contactFirstName`,
+	`phone`,
+	`addressLine1`,
+	`addressLine2`,
+	`city`,
+	`state`,
+	`postalCode`,
+	`country`,
+	`salesRepEmployeeNumber`,
+	`creditLimit`)
+VALUES(497,
+'neuer kunde',
+'nachname',
+'vorname',
+'telefon',
+'adresse 123',
+'adresse 456',
+'Graz',
+'Stmk',
+'8052',
+'austria',
+0,
+0);
